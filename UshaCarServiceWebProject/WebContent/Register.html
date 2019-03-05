@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Oreos Car wash</title>
+<style>
+.container {
+    width: 80%;
+    height: 80%;
+    border: 1px solid gray;}
+
+header {
+    padding: 1em;
+    color: Blue;
+    background-color: #a39f9f ;
+    clear: left;
+    text-align: center;
+	}
+#bar{float:left;
+					padding-left:75px;}
+			ol li{display:inline-block;
+                font-size: 12px;
+                font-family:arial;
+                vertical-align: top;margin-top:0px;}
+                a{text-decoration:none;
+                	color:black;
+                	padding:18px 15px;
+                	display:block;}
+			ol li:hover{background: #00b7ff;
+				pointer:cursor;}	
+#nav {
+	background-color: #dcf1f2 ;
+	width: 95%;
+	padding-bottom :1em;
+	 padding-left: 1em;
+	border:1px solid gray;
+	}
+
+.nav3 {
+	background-color: #dcf1f2 ;
+	width: 65%;
+	padding-bottom :1em;
+	 padding-left: 1em;
+	 padding-top:1em;
+	border:1px solid gray;"}
+.button{background-color: #4CAF50;
+     border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+   <h1><img src="Oreo.png" alt="Oreo's Car Wash"> </h1>
+   
+</header>
+
+<div class="nav3">Please fill in the fields below. </div><br>
+<div id="bar">
+				<ol style="margin-top:0px;">
+					<li><a href="Register.html">Account Signup</a></li>
+					<li><a href="MakeAppointment.jsp">Make Appointment</a></li>
+					<li><a href="your appointments.html">Your Appointments</a></li>
+					
+				</ol>
+			</div><br><br><br>
+
+<div class="nav3">
+<div id="nav">
+  <form method="post" action="register">Appointment Information<br><br>
+   First Name:<br>
+	<input type="text" name="firstname" size="95">
+	<br>
+	Last Name:<br>
+	<input type="text" name="lastname" size="95">
+	<br>
+	Phone no:<br>
+	<input type="text" name="phnumber" size="95" >
+	<br>
+	Email:<br>
+  <input type="email" name="email" size="95">
+ 
+</div>
+<br><br>
+<div id="nav">
+
+  <form  method="post" action="login">
+  Login Information<br> <br>
+ Username:<br>
+  <input type="text" name="username" size="95">
+  <br>
+  Choose Password <br>
+  <input type="password" name="password" size="95">
+  <br>
+  Confirm Password<br>
+  <input type="password" name="password" size="95">
+
+
+</div><br>
+<button class="button">Cancel</button>
+<button class="button">Create a New Account</button>
+</div>
+
+</div>
+</form> 
+</form>
+</body>
+</html>
